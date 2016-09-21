@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gibby</title>
+	{% load staticfiles %}
+	<link rel="stylesheet" href="{% static 'log/css/index.css' %}" >
+</head>
+<body>
+<img src="{% static 'log/images/gibby.png' %}"/>
+<h1>Success</h1>
+	
+
+	<div class="box">
+		{% for i in user %}
+			<h2>{{i.first_name}} {{i.last_name}}</h2>
+			<h2>{{i.email}}<h2>
+			<form action="{{i.id}}/remove" method="POST">
+		{% csrf_token %}
+			<button type="submit">Remove</button>
+		</form>
+		{% endfor %}
+
+	</div>
+
+</body>
+</html>

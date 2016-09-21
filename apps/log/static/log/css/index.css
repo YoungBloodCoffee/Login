@@ -1,0 +1,96 @@
+form {
+  width: 100%;
+  min-height: 20px;
+}
+
+img {
+  width: 12%;
+  margin-left: 44%;
+  margin-top: 10px;
+}
+
+input {
+  display: inline-block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 40%;
+  height: 22px;
+  padding: 10px 15px;
+  border: 1px solid #38c4bb;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  font: normal 22px/normal Verdana, Geneva, sans-serif;
+  color: #38c4bb;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  min-width: 200px;
+  text-align: center;
+  outline-color: #38c4bb;
+}
+
+.box {
+  width: 80%;
+  min-height: 50px;
+  margin-left: 10%;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  color: #38c4bb;
+  text-align: center;
+
+}
+
+h1 {
+  text-align: center;
+  color: #38c4bb;
+  font: normal 18px/normal Verdana, Geneva, sans-serif;
+
+}
+
+h4 {
+  text-align: center;
+  color: #38c4bb;
+  font: normal 16px/normal Verdana, Geneva, sans-serif;
+
+}
+
+h2 {
+  text-align: center;
+  color: #38c4bb;
+  font: normal 16px/normal Verdana, Geneva, sans-serif;
+
+}
+
+h3 {
+  color: #38c4bb;
+  font: normal 16px/normal Verdana, Geneva, sans-serif;
+  text-align: center;
+}
+
+p {
+  color: red;
+  font: normal 14px/normal Verdana, Geneva, sans-serif;
+}
+
+button {
+  width: 40%;
+  height: 36px;
+  border-radius: 3px;
+  text-align: center;
+  min-width: 160px;
+  color: #b0afaf;
+  background: white;
+  border: 3px solid #38c4bb;
+  font: normal 18px/normal Verdana, Geneva, sans-serif;
+  outline-color: #38c4bb;
+
+}
+
+* {
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+
+button:hover {
+  background: #38c4bb;
+  color: white;
+}

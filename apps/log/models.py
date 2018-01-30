@@ -32,8 +32,8 @@ class UserManager(models.Manager):
 		if not data["password"]:
 			errors.append("Password field blank")
 
-		if len(data["password"]) < 8:
-			errors.append("Password field cannot be less than 8 characters")
+		if len(data["password"]) < 6:
+			errors.append("Password field cannot be less than 6 characters")
 
 		if not data["password"] == data["confirm_password"]:
 			errors.append("Passwords do not match")
